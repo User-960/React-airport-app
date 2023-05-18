@@ -1,11 +1,12 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello
-      </h1>
+    <div>
+      <Routes>
+        <Route path='/' element={ }></Route>
+      </Routes>
     </div>
   );
 }
