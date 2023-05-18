@@ -1,13 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { IAirport } from '../../models/models';
 
 interface AirportState {
   loading: boolean
   error: string
-  airport: []
+  airport: IAirport[]
 };
 
 const initialState: AirportState = {
-  loading: true,
+  loading: false,
   error: '',
   airport: []
 };
