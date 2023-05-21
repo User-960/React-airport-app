@@ -21,6 +21,60 @@
         "region": "BE-WLG",
         "type": "closed",
         "country": "BE"
+      },
+      {
+        "id": 12431,
+        "name": "s Gravenwezel heliport",
+        "ident": "EBAS",
+        "local_code": null,
+        "region": "BE",
+        "type": "heliport",
+        "country": "BE"
+      },
+      {
+        "id": 15313,
+        "name": "Airfield heliport",
+        "ident": "EBAS",
+        "local_code": null,
+        "region": "BG",
+        "type": "small_airport",
+        "country": "BG"
+      },
+      {
+        "id": 11424,
+        "name": "Gravenvoeren heliport",
+        "ident": "EBAS",
+        "local_code": null,
+        "region": "BG",
+        "type": "small_airport",
+        "country": "BG"
+      },
+      {
+        "id": 12572,
+        "name": "Airfield heliport",
+        "ident": "EBAS",
+        "local_code": null,
+        "region": "TUR",
+        "type": "heliport",
+        "country": "TUR"
+      },
+      {
+        "id": 19380,
+        "name": "Airfield Gravenvoeren",
+        "ident": "EBAS",
+        "local_code": null,
+        "region": "SP",
+        "type": "small_airport",
+        "country": "SP"
+      },
+      {
+        "id": 15092,
+        "name": "Der Germ heliport",
+        "ident": "EBAS",
+        "local_code": null,
+        "region": "TUR",
+        "type": "closed",
+        "country": "TUR"
       }
     ]
   }
