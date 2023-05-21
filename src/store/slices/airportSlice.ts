@@ -4,13 +4,13 @@ import { IAirport } from '../../models/models';
 interface AirportState {
   loading: boolean
   error: string
-  airport: IAirport[]
+  airports: IAirport[]
 };
 
 const initialState: AirportState = {
   loading: false,
   error: '',
-  airport: []
+  airports: []
 };
 
 const airportSlice = createSlice({
@@ -18,11 +18,13 @@ const airportSlice = createSlice({
   initialState,
   reducers: {
     fetching(state) {
+      state.error = '';
       state.loading = true;
     },
     fetchSuccess(state, action: PayloadAction<IAirport[]>) {
+      state.error = '';
       state.loading = false;
-      state.airport = action.payload;
+      state.airports = action.payload;
     },
     fetchError(state, action: PayloadAction<Error>) {
       state.loading = false;

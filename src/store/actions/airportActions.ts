@@ -6,7 +6,7 @@ import { fetchError, fetching, fetchSuccess } from "../slices/airportSlice";
 export const fetchAirports = () => {
   return async (dispatch: AppDispatch) => {
     try {
-      dispatch(fetching);
+      dispatch(fetching());
       const response = await axios.get<ServerResponse<IAirport>>('airports');
       dispatch(fetchSuccess(response.data.results));
     } catch (e) {

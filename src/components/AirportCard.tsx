@@ -1,9 +1,14 @@
 import React from 'react';
+import { IAirport } from '../models/models';
 
-export default function AirportCard() {
+interface AirportCardProps {
+  airport: IAirport
+};
+
+export default function AirportCard({ airport }: AirportCardProps) {
   return (
     <div>
-      Card
+      {airport.name}
     </div>
   )
 };
