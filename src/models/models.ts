@@ -8,9 +8,13 @@ export interface IAirport {
   country: string
 };
 
-export interface ServerResponse<T> {
+export interface IStat {
   count: number
   next: number
   previous: number
-  results: T[]
-};
+}
+
+// export interface ServerResponse<T> {
+//   stat: IStat
+//   airports: T[]
+// };
