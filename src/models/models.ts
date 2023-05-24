@@ -14,7 +14,6 @@ export interface IStat {
   previous: number
 }
 
-// export interface ServerResponse<T> {
-//   stat: IStat
-//   airports: T[]
-// };
+export interface ServerResponse<T> {
+  airports: T[]
+};

@@ -87,7 +87,7 @@
       "country": "FIN"
     },
     {
-      "id": 2092,
+      "id": 2093,
       "name": "Der Germ heliport",
       "ident": "EBAS",
       "local_code": null,
@@ -96,8 +96,8 @@
       "country": "TUR"
     },
     {
-      "id": 4880,
-      "name": "Airfield Ista",
+      "id": 4873,
+      "name": "s Air Ista",
       "ident": "EBAS",
       "local_code": null,
       "region": "SP",
@@ -115,7 +115,7 @@
     },
     {
       "id": 1424,
-      "name": "Airfield Ista",
+      "name": "5 Airfield Ista",
       "ident": "EBAS",
       "local_code": null,
       "region": "TUR",
@@ -159,7 +159,7 @@
       "country": "SP"
     },
     {
-      "id": 2092,
+      "id": 2091,
       "name": "Der Germ heliport",
       "ident": "EBAS",
       "local_code": null,
@@ -168,8 +168,8 @@
       "country": "TUR"
     },
     {
-      "id": 4880,
-      "name": "Airfield Ista",
+      "id": 4873,
+      "name": "Airfield Anta",
       "ident": "EBAS",
       "local_code": null,
       "region": "SP",
@@ -195,8 +195,8 @@
       "country": "SP"
     },
     {
-      "id": 8042,
-      "name": "Der Germ heliport",
+      "id": 2942,
+      "name": "De Fra heliport",
       "ident": "EBAS",
       "local_code": null,
       "region": "FR",
@@ -214,7 +214,7 @@
     },
     {
       "id": 2472,
-      "name": "Der Germ heliport",
+      "name": "La Fra heliport",
       "ident": "EBAS",
       "local_code": null,
       "region": "FR",
