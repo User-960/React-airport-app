@@ -21,3 +21,9 @@ export interface ServerResponse<T> {
 export type TAirportType = string;
 export type TAirportRegion = string;
 export type TAirportCountry = string;
+
+export interface IFilter {
+  type: TAirportType
+  region: TAirportRegion
+  country: TAirportCountry
+};
