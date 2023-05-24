@@ -16,7 +16,9 @@ const initialState: HandbookState = {
 };
 
 interface HandbookPayload {
-
+  types: TAirportType[]
+  regions: TAirportRegion[]
+  countries: TAirportCountry[]
 };
 
 const handbookSlice = createSlice({
@@ -26,12 +28,14 @@ const handbookSlice = createSlice({
     fetching(state) {
       state.loading = true;
     },
-    fetchSuccess(state, action: PayloadAction) {
+    fetchSuccess(state, action: PayloadAction<HandbookPayload>) {
       state.loading = false;
-      // state.types = action.payload;
+      state.types = action.payload.types
+      state.regions = action.payload.regions
+      state.countries = action.payload.countries
     },
   }
 });
 
-export const { fetching } = handbookSlice.actions;
+export const { fetching, fetchSuccess } = handbookSlice.actions;
 export default handbookSlice.reducer;

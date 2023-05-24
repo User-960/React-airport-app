@@ -4,6 +4,43 @@
     "next": 2,
     "previous": null
   },
+  "airports-types": [
+    "heliport",
+    "seaplane_base",
+    "closed",
+    "small_airport",
+    "large_airport",
+    "medium_airport",
+    "balloonport"
+  ],
+  "regions": [
+    "DE-HE",
+    "BE-WLG",
+    "ITA-RM",
+    "BG-SOF",
+    "BG-BUR",
+    "BG-PL",
+    "TUR-IST",
+    "TUR-ANT",
+    "TUR-ANK",
+    "JAP-TK",
+    "FIN-HEL",
+    "SP-MD",
+    "SP-BAR",
+    "SP-VAL",
+    "FR-PS"
+  ],
+  "countries": [
+    "DE",
+    "BE",
+    "ITA",
+    "BG",
+    "TUR",
+    "JAP",
+    "FIN",
+    "SP",
+    "FR"
+  ],
   "airports": [
     {
       "id": 17811,
@@ -28,7 +65,7 @@
       "name": "s Ita heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "ITA",
+      "region": "ITA-RM",
       "type": "heliport",
       "country": "ITA"
     },
@@ -37,7 +74,7 @@
       "name": "Airfield heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "BG",
+      "region": "BG-PL",
       "type": "small_airport",
       "country": "BG"
     },
@@ -46,7 +83,7 @@
       "name": "Gravenvoeren heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "BG",
+      "region": "BG-PL",
       "type": "small_airport",
       "country": "BG"
     },
@@ -55,7 +92,7 @@
       "name": "Airfield Ista",
       "ident": "EBAS",
       "local_code": null,
-      "region": "TUR",
+      "region": "TUR-ANK",
       "type": "heliport",
       "country": "TUR"
     },
@@ -64,7 +101,7 @@
       "name": "Asi der heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "JAP",
+      "region": "JAP-TK",
       "type": "small_airport",
       "country": "JAP"
     },
@@ -73,7 +110,7 @@
       "name": "Der Germ heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "TUR",
+      "region": "TUR-IST",
       "type": "closed",
       "country": "TUR"
     },
@@ -82,8 +119,8 @@
       "name": "Fin Airfield heliport",
       "ident": "DE-0140",
       "local_code": null,
-      "region": "FIN",
-      "type": "small_airport",
+      "region": "FIN-HEL",
+      "type": "large_airport",
       "country": "FIN"
     },
     {
@@ -91,7 +128,7 @@
       "name": "Der Germ heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "TUR",
+      "region": "TUR-IST",
       "type": "closed",
       "country": "TUR"
     },
@@ -100,7 +137,7 @@
       "name": "s Air Ista",
       "ident": "EBAS",
       "local_code": null,
-      "region": "SP",
+      "region": "SP-BAR",
       "type": "small_airport",
       "country": "SP"
     },
@@ -109,7 +146,7 @@
       "name": "Der Dingel Airfield",
       "ident": "EBAS",
       "local_code": null,
-      "region": "BG",
+      "region": "BG-BUR",
       "type": "small_airport",
       "country": "BG"
     },
@@ -118,8 +155,8 @@
       "name": "5 Airfield Ista",
       "ident": "EBAS",
       "local_code": null,
-      "region": "TUR",
-      "type": "small_airport",
+      "region": "TUR-ANT",
+      "type": "large_airport",
       "country": "TUR"
     },
     {
@@ -127,8 +164,8 @@
       "name": "Sof heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "BG",
-      "type": "heliport",
+      "region": "BG-SOF",
+      "type": "balloonport",
       "country": "BG"
     },
     {
@@ -136,7 +173,7 @@
       "name": "Airfield Gravenvoeren",
       "ident": "EBAS",
       "local_code": null,
-      "region": "SP",
+      "region": "SP-VAL",
       "type": "small_airport",
       "country": "SP"
     },
@@ -145,7 +182,7 @@
       "name": "Der Germ heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "TUR",
+      "region": "TUR-ANT",
       "type": "closed",
       "country": "TUR"
     },
@@ -154,8 +191,8 @@
       "name": "Airfield Gravenvoeren",
       "ident": "EBAS",
       "local_code": null,
-      "region": "SP",
-      "type": "small_airport",
+      "region": "SP-BAR",
+      "type": "large_airport",
       "country": "SP"
     },
     {
@@ -163,8 +200,8 @@
       "name": "Der Germ heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "TUR",
-      "type": "closed",
+      "region": "TUR-IST",
+      "type": "seaplane_base",
       "country": "TUR"
     },
     {
@@ -172,8 +209,8 @@
       "name": "Airfield Anta",
       "ident": "EBAS",
       "local_code": null,
-      "region": "SP",
-      "type": "small_airport",
+      "region": "SP-BAR",
+      "type": "medium_airport",
       "country": "SP"
     },
     {
@@ -181,7 +218,7 @@
       "name": "Der Germ heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "TUR",
+      "region": "TUR-IST",
       "type": "closed",
       "country": "TUR"
     },
@@ -190,7 +227,7 @@
       "name": "Airfield Gravenvoeren",
       "ident": "EBAS",
       "local_code": null,
-      "region": "SP",
+      "region": "SP-MD",
       "type": "small_airport",
       "country": "SP"
     },
@@ -199,7 +236,7 @@
       "name": "De Fra heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "FR",
+      "region": "FR-PS",
       "type": "closed",
       "country": "FR"
     },
@@ -208,8 +245,8 @@
       "name": "s Gravenwezel heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "SP",
-      "type": "small_airport",
+      "region": "SP-MD",
+      "type": "medium_airport",
       "country": "SP"
     },
     {
@@ -217,7 +254,7 @@
       "name": "La Fra heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "FR",
+      "region": "FR-PS",
       "type": "closed",
       "country": "FR"
     },
@@ -226,8 +263,8 @@
       "name": "s Gravenwezel heliport",
       "ident": "EBAS",
       "local_code": null,
-      "region": "BG",
-      "type": "closed",
+      "region": "BG-SOF",
+      "type": "seaplane_base",
       "country": "BG"
     }
   ]
