@@ -17,3 +17,7 @@ export interface IStat {
 export interface ServerResponse<T> {
   airports: T[]
 };
+
+export type TAirportType = string;
+export type TAirportRegion = string;
+export type TAirportCountry = string;
