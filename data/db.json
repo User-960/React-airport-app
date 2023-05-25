@@ -692,5 +692,12 @@
       "gps_code": "RF32",
       "iata_code": null
     }
+  ],
+  "auth": [
+    {
+      "username": "string",
+      "email": "user@example.com",
+      "password": "string"
+    }
   ]
 }
