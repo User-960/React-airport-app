@@ -266,6 +266,24 @@
       "region": "BG-SOF",
       "type": "seaplane_base",
       "country": "BG"
+    },
+    {
+      "id": 2801,
+      "name": "La Fra airport",
+      "ident": "EBAS",
+      "local_code": null,
+      "region": "FR-PS",
+      "type": "closed",
+      "country": "FR"
+    },
+    {
+      "id": 3126,
+      "name": "Gravenwezel airportt",
+      "ident": "EBAS",
+      "local_code": null,
+      "region": "BG-SOF",
+      "type": "seaplane_base",
+      "country": "BG"
     }
   ]
 }

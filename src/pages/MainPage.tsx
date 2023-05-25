@@ -6,7 +6,7 @@ import { useAppDispatch, useAppSelector } from '../hook/redux';
 import { fetchAirports } from '../store/actions/airportActions';
 import ReactPaginate from 'react-paginate';
 
-const ITEMS_PER_PAGE = 5;
+const ITEMS_PER_PAGE = 9;
 
 export default function MainPage() {
   // state from redux
@@ -39,7 +39,7 @@ export default function MainPage() {
         airports.map(airport => <AirportCard key={airport.id} airport={airport} />)
       }
 
-      <ReactPaginate
+      {pageCount && <ReactPaginate
         breakLabel="..."
         nextLabel=">"
         onPageChange={pageChangeHandler}
@@ -52,7 +52,7 @@ export default function MainPage() {
         previousClassName="py-1 px-2 border mr-2"
         nextClassName="py-1 px-2 border"
         activeClassName="bg-gray-500 text-white"
-      />
+      />}
     </div>
   )
 };
