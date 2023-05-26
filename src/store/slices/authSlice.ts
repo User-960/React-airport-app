@@ -1,6 +1,9 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { } from '../../models/models';
 
+const ACCESS_KEY: string = 'u-access';
+const USERNAME_KEY: string = 'u-username';
+
 interface AuthState {
   access: string
   username: string
@@ -8,9 +11,9 @@ interface AuthState {
 };
 
 const initialState: AuthState = {
-  access: '',
-  username: '',
-  isAuth: false
+  access: localStorage.getItem(ACCESS_KEY) ?? '',
+  username: localStorage.getItem(USERNAME_KEY) ?? '',
+  isAuth: Boolean(localStorage.getItem(ACCESS_KEY))
 };
 
 interface AuthPayload {
@@ -26,6 +29,9 @@ const authSlice = createSlice({
       state.access = action.payload.access
       state.username = action.payload.username
       state.isAuth = Boolean(action.payload.access)
+
+      localStorage.setItem(ACCESS_KEY, action.payload.access)
+      localStorage.setItem(USERNAME_KEY, action.payload.username)
     }
   }
 });

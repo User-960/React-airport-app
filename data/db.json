@@ -693,11 +693,15 @@
       "iata_code": null
     }
   ],
-  "auth": [
+  "auth": {
+    "access": "feivgmek345nrovb567epmnrvbnek",
+    "refresh": "string"
+  },
+  "auth-users": [
     {
-      "username": "string",
-      "email": "user@example.com",
-      "password": "string"
+      "id": "2023-05-26T10:34:10.999Z",
+      "username": "ivan11",
+      "password": "123456"
     }
   ]
 }
