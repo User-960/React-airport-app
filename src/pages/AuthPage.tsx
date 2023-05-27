@@ -2,7 +2,7 @@ import React, { FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useInput } from '../hook/input';
 import { useAppDispatch } from '../hook/redux';
-import { register } from '../store/actions/authActions';
+import { loginApp, register } from '../store/actions/authActions';
 
 export default function AuthPage() {
   const username = useInput('');
@@ -12,11 +12,25 @@ export default function AuthPage() {
 
   const isFormValid = () => username.value && password.value;
 
-  const submitHandler = (event: FormEvent) => {
+  const submitHandler = async (event: FormEvent) => {
     event.preventDefault();
 
     if (isFormValid()) {
-      dispatch(register({
+      await dispatch(register({
+        id: new Date().toISOString(),
+        username: username.value,
+        password: password.value
+      })).then(() => {
+        navigate('/')
+      })
+    } else {
+      alert("INVALID FORM PLZ CHANGE FAST")
+    }
+  };
+
+  const loginHandler = async () => {
+    if (isFormValid()) {
+      await dispatch(loginApp({
         id: new Date().toISOString(),
         username: username.value,
         password: password.value
@@ -44,6 +58,7 @@ export default function AuthPage() {
       </div>
 
       <button className="py-2 px-4 bg-blue-700 border text-white" type="submit" onClick={submitHandler}>Register</button>
+      <button className="py-2 px-4 bg-green-700 border text-white" type="button" onClick={loginHandler}>Login</button>
     </form>
   )
 };

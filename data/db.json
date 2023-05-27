@@ -699,16 +699,6 @@
   },
   "auth-users": [
     {
-      "id": "2023-05-26T10:34:10.999Z",
-      "username": "ivan11",
-      "password": "123456"
-    },
-    {
-      "id": "2023-05-26T11:02:19.184Z",
-      "username": "kiril99",
-      "password": "12345"
-    },
-    {
       "id": "2023-05-26T11:03:50.508Z",
       "username": "andrew1234",
       "password": "123456"
